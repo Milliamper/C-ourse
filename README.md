@@ -20,10 +20,21 @@
     - `char name[] = "Márton"` - array of characters
 - `const float PI = 3.14` - read-only value
 
-#### Format Specifiers
+#### Format specifiers
 - `%d` or `%i`  → int	
 - `%f`          → float	
 - `%lf`         → double (long float)	
 - `%c`          → char	
 - `%s`          → strings (text)
+
+### Math functions `#include <math.h>`
+- négyzetgyök → `sqrt(9)`
+- hatványozás → `pow(2,4)`
+- kerekítés → `round(3.14)`
+- felfele kerekítés `ceil(3.14)`
+- lefele kerekítés → `floor(3.14)`
+- abszolút érték → `fabs()`
+- logaritmus → `log()`
+- `sin()`, `cos()`, `tan()`
+
 
