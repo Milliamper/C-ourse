@@ -18,6 +18,7 @@
 - `int x = 123` : declaration + initialization
 - No string datatype because strings are technically objects
     - `char name[] = "Márton"` - array of characters
+- `const float PI = 3.14` - read-only value
 
 #### Format Specifiers
 - `%d` or `%i`  → int	
