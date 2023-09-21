@@ -7,3 +7,8 @@
 - Middle level programming language
 - Not object-oriented
 - C++ is an object-oriented extension of C
+
+### Escape sequences
+- `\t` : tab
+- `\n` : new line
+- `\"` : print quotes
