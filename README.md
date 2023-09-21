@@ -12,3 +12,17 @@
 - `\t` : tab
 - `\n` : new line
 - `\"` : print quotes
+
+### Variables
+- Allocated space in memory to store values
+- `int x = 123` : declaration + initialization
+- No string datatype because strings are technically objects
+    - `char name[] = "Márton"` - array of characters
+
+#### Format Specifiers
+- `%d` or `%i`  → int	
+- `%f`          → float	
+- `%lf`         → double (long float)	
+- `%c`          → char	
+- `%s`          → strings (text)
+
