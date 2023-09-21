@@ -37,4 +37,33 @@
 - logaritmus → `log()`
 - `sin()`, `cos()`, `tan()`
 
+### Ternary operator - Három operandusú operátor
+- shortcut to if/else statement when assigning/returning a value
+- (condition) ? value if true : value if false
 
+### Function prototype
+- Function declaration, without a body, before `main()`
+- `void hello(char[], int);`
+- Ensures that you can call a function with a required amount of arguments
+- Many C compilers do not check for parameter checking
+- Missing arguments will result in unexpected behavior - lefut, csak hülyeséget ír ki. Így viszont hibát dob és le sem fut
+
+### String fucntions `#include <string.h>`
+- `strlwv()` → converts string to lowercase
+- `strlwv()` → converts string to uppercase
+- `strcat(string1, string2)` → appends string2 to end of string1
+- `strncat(string1, string, 2)` → appends n characters from string2 to string1
+- `strcpy(string1, string2)` → copy string2 to string1
+- `strncpy(string1, string2, 1)` → copy n characters from string2 to string1
+    - `strncpy("iPhone", "Android", 1)` → APhone
+- `strset(string1, "?")` → sets all characters of a string to a given character
+- `strnset(string1, "?" , 1)` → sets n characters of a string to a given character
+- `strrev()` → reverses a string
+
+#### These all return integer
+- `strlen(string1)` → returns string length
+- `strcmp(string1, string2)` → compare all characters
+    - If the two strings are identical, it returns 0
+- `strncmp(string1, string2)` → compare n characters
+- `strncmpi(string1, string2 , 1)` → compare all characters (ignoring case)
+- `strnicmp(string1, string2 , 1)` → compare n characters (ignoring case)
