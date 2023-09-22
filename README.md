@@ -67,3 +67,18 @@
 - `strncmp(string1, string2)` → compare n characters
 - `strncmpi(string1, string2 , 1)` → compare all characters (ignoring case)
 - `strnicmp(string1, string2 , 1)` → compare n characters (ignoring case)
+
+### Bitwise operators
+- `&` → AND
+- `|` → OR
+- `^` → XOR
+- `<<` → left shirt
+- `>>` → right shift
+-   `int x = 6`      `00000110`
+    `int y = 12`     `00001100`
+
+    - `&` →         `00000100`→ 4
+    - `|` →         `00001110`→ 14
+    - `^` →         `00001010`→ 10
+    - `x << 1` →    `00001100`→ 12 (doubles the number)
+    - `x >> 1` →    `00000011`→ 3 
